@@ -14,7 +14,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'jy95', // Usually your GitHub org/user name.
   projectName: 'i18n-tools', // Usually your repo name.
-
+  plugins: [
+    "./postcss-tailwind-loader"
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
