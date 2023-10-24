@@ -1,7 +1,7 @@
 ---
 slug: flat-json-now-supported
 title: Flat JSON now supported
-authors: [jy95]
+authors: [marvin]
 tags: [feature]
 ---
 

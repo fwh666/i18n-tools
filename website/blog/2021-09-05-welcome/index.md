@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [jy95]
+authors: [marvin]
 tags: [welcome]
 ---
 

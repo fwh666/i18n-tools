@@ -4,16 +4,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: '@jy95/i18n-tools',
-  tagline: 'CLI to make common operations around i18n files simpler',
-  url: 'https://jy95.github.io',
-  baseUrl: '/i18n-tools/',
+  title: 'whoer ips',
+  tagline: 'whoer ips',
+  url: 'https://whoerips.com',
+  baseUrl: '/',
   trailingSlash: false, // Needed for Gh pages - https://github.com/facebook/docusaurus/issues/5026
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'jy95', // Usually your GitHub org/user name.
-  projectName: 'i18n-tools', // Usually your repo name.
+  organizationName: 'whoer ip', // Usually your GitHub org/user name.
+  projectName: 'whoer ip', // Usually your repo name.
   plugins: [
     "./postcss-tailwind-loader"
   ],
@@ -49,29 +49,30 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         indexName: 'i18n-tool'
       },
       navbar: {
-        title: '@jy95/i18n-tools',
+        title: 'whoer ip',
         logo: {
-          alt: '@jy95/i18n-tools',
-          src: 'img/logo.svg',
+          alt: 'whoer ip',
+          // src: 'img/logo.svg',
+          src: 'img/logo003.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'installation',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'installation',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/jy95/i18n-tools',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/jy95/i18n-tools',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} @jy95/i18n-tools. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} whoer ip.`,
       },
       prism: {
         theme: lightCodeTheme,

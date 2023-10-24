@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import IpPage from '../components/ip';
+import IpAddress from '../components/ips';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -32,7 +33,8 @@ export default function Home(): JSX.Element {
     <Layout
       title={`${siteConfig.title}`}
       description="CLI to make common operations around i18n files simpler">
-      <IpPage/>
+      {/* <IpPage/> */}
+      <IpAddress/>
         
       {/* <HomepageHeader />
       <main>
