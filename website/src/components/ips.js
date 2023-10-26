@@ -56,7 +56,9 @@ const IpAddress = () => {
 
     return (
         <div className="container mx-auto">
-            <h1 className="text-3xl font-bold text-center mt-8 mb-4">IP Address Lookup</h1>
+            {/*<h1 className="text-3xl font-bold text-center mt-8 mb-4">IP Address Lookup</h1>*/}
+            <h1 className="text-5xl font-bold tracking-tight mb-4">IP Address Lookup</h1>
+            <p className="text-base font-normal">"Whoer IP" is an online service by whoer.net, enabling users to easily check their current IP address. It provides detailed IP information like the location, country, and Internet Service Provider. This tool serves a key role in improving users' understanding of their own online presence and maintaining internet privacy and security.</p>
             <form onSubmit={handleSubmit} className="max-w-md mx-auto">
                 <div className="flex items-center border-b border-b-2 border-blue-500 py-2">
                     <input
@@ -77,7 +79,8 @@ const IpAddress = () => {
                 {error && <p className="text-red-500 mt-2">{error}</p>}
             </form>
 
-            {!location && (<h2 className="text-lg font-family text-2xl text-center mb-3">Your IP Address is: {ipLocation}</h2>)}            
+            {/*{!location && (<h2 className="text-lg font-family text-2xl text-center mb-3">Your IP Address is: {ipLocation}</h2>)}            */}
+            {!location && (<h2 className="font-semibold text-black">Your IP Address is: {ipLocation}</h2>)}
 
 
             {location && (
