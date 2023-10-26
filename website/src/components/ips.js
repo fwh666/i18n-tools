@@ -77,49 +77,50 @@ const IpAddress = () => {
                 {error && <p className="text-red-500 mt-2">{error}</p>}
             </form>
 
-            {!location && (<h2 className="text-lg font-family text-2xl text-center mb-3">Your IP Address is: {ipLocation}</h2>)}
-            {/* <h2 className="text-lg font-family text-2xl text-center mb-3">Your IP Address is: {ipLocation}</h2> */}
-            
+            {!location && (<h2 className="text-lg font-family text-2xl text-center mb-3">Your IP Address is: {ipLocation}</h2>)}            
 
 
             {location && (
-                <div className="text-3xl font-bold  mt-8 mb-4">
+                <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+                <div class="relative bg-white px-6 pb-8 pt-10 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+                  <div className="text-3xl font-bold  mt-8 mb-4">
                     <h2 className="text-lg font-family text-center text-2xl">IP Address Information:</h2>
-                    <hr/>
-                    {/* <table className="border divide-y divide-gray-200 w-full whitespace-nowrap table-auto mx-auto mt-4 text-center"> */}
-                    <table className="divide-y divide-gray-200 w-full whitespace-nowrap table-auto mx-auto mt-4 ">
-                        <tbody>
-                            <tr>
-                                <td className="px-4 py-2 text-gray-700 font-medium">IP:</td>
-                                <td className="px-4 py-2 text-gray-700 font-medium">{location.ip}</td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-2 text-gray-700 font-medium">Hostname:</td>
-                                <td className="px-4 py-2 text-gray-700 font-medium">{location.hostname}</td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-2 text-gray-700 font-medium">City:</td>
-                                <td className="px-4 py-2 text-gray-700 font-medium">{location.city}</td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-2 text-gray-700 font-medium">Region:</td>
-                                <td className="px-4 py-2 text-gray-700 font-medium">{location.region}</td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-2 text-gray-700 font-medium">Country:</td>
-                                <td className="px-4 py-2 text-gray-700 font-medium">{location.country_name}</td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-2 text-gray-700 font-medium">Latitude:</td>
-                                <td className="px-4 py-2 text-gray-700 font-medium">{location.latitude}</td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-2 text-gray-700 font-medium">Longitude:</td>
-                                <td className="px-4 py-2 text-gray-700 font-medium">{location.longitude}</td>
-                            </tr>
-                        </tbody>
+                    <hr />
+                    <table className="border divide-y divide-gray-200 w-full whitespace-nowrap table-auto mx-auto mt-4 text-center">
+                      <tbody>
+                        <tr>
+                          <td className="px-4 py-2 text-gray-700 font-medium">IP:</td>
+                          <td className="px-4 py-2 text-gray-700 font-medium">{location.ip}</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 text-gray-700 font-medium">Hostname:</td>
+                          <td className="px-4 py-2 text-gray-700 font-medium">{location.hostname}</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 text-gray-700 font-medium">City:</td>
+                          <td className="px-4 py-2 text-gray-700 font-medium">{location.city}</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 text-gray-700 font-medium">Region:</td>
+                          <td className="px-4 py-2 text-gray-700 font-medium">{location.region}</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 text-gray-700 font-medium">Country:</td>
+                          <td className="px-4 py-2 text-gray-700 font-medium">{location.country_name}</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 text-gray-700 font-medium">Latitude:</td>
+                          <td className="px-4 py-2 text-gray-700 font-medium">{location.latitude}</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 text-gray-700 font-medium">Longitude:</td>
+                          <td className="px-4 py-2 text-gray-700 font-medium">{location.longitude}</td>
+                        </tr>
+                      </tbody>
                     </table>
+                  </div>
                 </div>
+              </div>              
             )}
 
         </div>

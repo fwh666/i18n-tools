@@ -5,9 +5,9 @@ authors: [marvin]
 tags: [welcome]
 ---
 
-Welcome to @jy95/i18n-tools.
+Welcome to whoer ip
 This cli enables you to :
-- Export i18n files into something else
-- Turn a file to i18n file(s)
-- Compare at least two i18n files & generate a report
+- Export whoer ip files into something else
+- Turn a file to whoer ip file(s)
+- Compare at least two whoer ip files & generate a report
 - ...
