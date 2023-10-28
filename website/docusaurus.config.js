@@ -25,13 +25,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/jy95/i18n-tools/edit/master/website/',
+          editUrl: 'https://github.com/jy95/whoer ips/edit/master/website/',
+        },
+         //google analytics
+         gtag: {
+          trackingID: 'G-653XXV2HRE',
+          anonymizeIP: true,
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/jy95/i18n-tools/edit/master/website/blog/',
+            'https://github.com/jy95/whoer ips/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,7 +69,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           // },
           {to: '/blog', label: 'Blog', position: 'left'},
           // {
-          //   href: 'https://github.com/jy95/i18n-tools',
+          //   href: 'https://github.com/jy95/whoer ips',
           //   label: 'GitHub',
           //   position: 'right',
           // },
