@@ -2,7 +2,7 @@
 .DS_Store
 node_modules
 dist
-
+/.idea
 # Files / Folders created by the testing
 coverage
 diff_report_*
