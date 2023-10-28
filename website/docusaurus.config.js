@@ -12,8 +12,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'whoer ip', // Usually your GitHub org/user name.
-  projectName: 'whoer ip', // Usually your repo name.
+  organizationName: 'whoer ips', // Usually your GitHub org/user name.
+  projectName: 'whoer ips', // Usually your repo name.
   plugins: [
     "./postcss-tailwind-loader"
   ],
@@ -49,9 +49,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         indexName: 'i18n-tool'
       },
       navbar: {
-        title: 'whoer ip',
+        title: 'whoer ips',
         logo: {
-          alt: 'whoer ip',
+          alt: 'whoer ips',
           // src: 'img/logo.svg',
           src: 'img/logo003.png',
         },
@@ -72,7 +72,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} whoer ip.`,
+        copyright: `Copyright © ${new Date().getFullYear()} whoer ips.`,
       },
       prism: {
         theme: lightCodeTheme,
