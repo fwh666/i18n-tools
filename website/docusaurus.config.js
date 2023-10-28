@@ -17,6 +17,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   plugins: [
     "./postcss-tailwind-loader"
   ],
+  scripts: [
+    //google adsense
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5455845858903578',
+      async: true,
+      crossorigin: 'anonymous',
+    },
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
